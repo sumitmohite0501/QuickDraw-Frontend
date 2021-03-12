@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quick draw game 3rd page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <section class="services-container" style="height:700px ;"  >
+
+        <h1 class="h-primary center" style="text-align: center;color: white;">
+            Quick Draw
+        </h1>
+        <!-- main container -->
+
+        <div id="services" style=" display: flex;flex-direction:row;height: 600px;" >
+            
+            <!-- left section -->
+
+            <div class="box" style=" width: 25%; margin: 20px 20px 20px 20px;">
+                <a id="back"style="font-size: 20px;border-radius: 5px;" routerLink='/home'>back</a>
+            </div>
+
+            <!-- mid section -->
+
+            <div class="box" style="background-color: rgb(224, 177, 145);width: 40%;margin: 20px 20px 20px 20px;">
+
+                <div  class="canvas">
+                    <h2 class="h-secondary center">Draw inside this canvas</h2>
+                    <canvas #canvasres width="430"height="450"></canvas>
+                </div>
+                
+            </div>
+
+            <!-- right section -->
+
+            <div class="box" style="width: 25%;margin: 20px 20px 20px 20px;text-align: center;">
+                
+                <div style="margin-top: 250px;">
+
+                    <a class="btn"style="background-color: yellowgreen;"(click)="Save()">Confirm Selection</a>
+                    <a class="btn" style="background-color:rgb(247, 45, 45);"(click)="clearcanvas()">Clear canvas</a>
+
+                </div>
+
+            </div>
+        </div>
+        <h2 style="text-align: center;color: white;">{{result}}</h2>
+    </section>
+    <script src="canvas.js"></script>
+</body>
+</html>

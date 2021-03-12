@@ -1,0 +1,36 @@
+
+.primarybtn{
+    font-size: 25px;
+    border-radius: 25px; 
+    box-shadow: none; 
+    width:80%; 
+    color:yellowgreen;
+    background-color:transparent; 
+    border-color: yellowgreen; 
+    border-width: 3px; 
+    padding: 15px;
+}
+.secondarybtn{
+    font-size: 25px;
+    border-radius: 25px;
+     box-shadow: none; 
+     width:80%; 
+     color: rgb(0,0,66); 
+     font-weight: 500 ; 
+     background-color:yellowgreen; 
+     border-color: yellowgreen; 
+     border-width: 3px;
+      padding: 15px;
+}
+.primarybtn:hover{
+    color: rgb(0,0,66);
+    font-weight: 500 ;
+    background-color:yellowgreen;
+    border-color: yellowgreen;
+
+}
+.secondarybtn:hover{
+    color:yellowgreen; 
+    background-color:transparent; 
+    border-color: yellowgreen;
+}

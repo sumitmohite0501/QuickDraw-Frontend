@@ -1,0 +1,40 @@
+.btn{
+    display: block;
+    width: 75%;
+    margin: 20px 20px 20px 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 5px;
+    
+}
+.btn1{
+    display: block;
+    width: 75%;
+    margin: 0px 20px 20px 30px;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 15px;
+    color: white;
+    background-color: purple;
+    text-align: center;
+
+}
+#back{
+    display: block;
+    margin-left: 50px;
+    color: white;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover{
+    background-color:yellowgreen;
+    color: white;
+    font-weight: 500;
+}
+#back:hover{
+    background-color:purple;
+    color: white;
+    width: 50px;
+}
